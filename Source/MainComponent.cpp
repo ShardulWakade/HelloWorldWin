@@ -18,7 +18,7 @@ void MainComponent::paint (juce::Graphics& g)
 
     g.setFont (juce::Font (48.0f));
     g.setColour (juce::Colours::red);
-    g.drawText ("Hello World updated!", getLocalBounds(), juce::Justification::centred, true);
+    g.drawText ("Hello World updated again!", getLocalBounds(), juce::Justification::centred, true);
 }
 
 void MainComponent::resized()
